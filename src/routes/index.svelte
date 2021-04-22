@@ -10,22 +10,20 @@
 			setTimeout(() => {
 				document.getElementById('container').classList.add('fadein')
 				index = (index + 1) % totalImages
-			}, 300)
+			}, 200)
 		}, 7000)
 	});
 </script>
 
 <style>
-	img {
+
+	#container {
+		opacity: 0;
 		position: absolute;
 		left: 0;
 		top: 0;
 		width: 100%;
 		height: 100%;
-	}
-
-	#container {
-		opacity: 0;
 	}
 
 	.fadein {
@@ -37,6 +35,13 @@
 		86% {opacity:1;}
 		100% {opacity:0;}
 	}
+
+	.background-image {
+		height: 100%; 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 </style>
 
 <svelte:head>
@@ -44,5 +49,5 @@
 </svelte:head>
 
 <div id="container" class="fadein">
-	<img alt="Success Kid" src={`/images/image_${index}.jpeg`}>
+	<div class="background-image" style={`background-image: url('/images/image_${index}.jpeg')`}></div>
 </div>

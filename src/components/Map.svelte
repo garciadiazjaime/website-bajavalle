@@ -9,6 +9,13 @@
 	export let lat;
 	export let lon;
 	export let zoom;
+	export let triggerResize;
+
+	$: {
+		if (triggerResize) {
+			map.resize();
+		}
+	}
 
 	let container;
 	let map;

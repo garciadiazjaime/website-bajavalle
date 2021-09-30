@@ -1,16 +1,18 @@
 <script>
-  export let profileHeight
+  import Carousel from "./Carousel.svelte"
   export let handlerCloseProfile
   export let item
 </script>
 
 <style>
 	.profile {
-		position: absolute;
-    bottom: 0;
+		position: fixed;
+    top: 0;
     left: 0;
 		background-color: white;
 		width: 100%;
+    height: 100%;
+    z-index: 3;
 	}
 
 	.close-btn {
@@ -24,11 +26,11 @@
 	}
 </style>
 
-<div class="profile" style={`height: ${profileHeight}px`}>
+<div class="profile">
   <div class="close-btn" on:click={handlerCloseProfile}>
     X
   </div>
-  <div>
-    {item.title}
-  </div>
+
+  <Carousel images={item.images} />
+  <h2>{item.title}</h2>
 </div>

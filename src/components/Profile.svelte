@@ -20,6 +20,7 @@
     top: 0;
     right: 0;
     font-size: 26px;
+    z-index: 1;
 	}
 	.close-btn:hover {
 		cursor: pointer;

@@ -5,7 +5,9 @@
 </script>
 
 <style>
-
+	:global(body) {
+		font-family: Helvetica;
+	}
 </style>
 
 <Header {segment} />

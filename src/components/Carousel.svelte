@@ -21,6 +21,12 @@ img {
   height: 250px;
   overflow: hidden;
 }
+
+@media only screen and (min-width: 600px) {
+  .container {
+    height: 480px;
+  }
+}
 </style>
 
 <div class="container">

@@ -16,7 +16,7 @@
 
   function initHeights() {
     deviceHeight = document.documentElement.clientHeight
-		headerHeight = document.querySelector('nav').offsetHeight
+		headerHeight = document.querySelector('.header').offsetHeight
 
 		mapHeight = deviceHeight - headerHeight
   }

@@ -1,23 +1,23 @@
-<script>
-
-
-
-</script>
-
 <style>
   .header {
-    background-color: black;
+    height: 80px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 1px 12px;
+    margin-bottom: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
-  h1 {
+  h3 {
     margin: 0;
-    font-size: 28px;
-    font-weight: 100;
-    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #ff385c;
     padding: 6px 12px;
     text-align: center;
   }
 </style>
 <div class="header">
-  <h1>Baja Valle Retreat</h1>
+  <h3>Baja Valle Retreat</h3>
 </div>

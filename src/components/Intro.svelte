@@ -41,6 +41,24 @@
   .color-3 {
     background-color: #bd196d;
   }
+
+  @media only screen and (max-width: 620px) {
+    .intro {
+      display: block;
+    }
+
+    .intro div {
+      margin-bottom: 40px;
+    }
+
+    img {
+      border-radius: initial;
+    }
+
+    .place {
+      border-radius: initial;
+    }
+  }
 </style>
 
 <div class="intro">

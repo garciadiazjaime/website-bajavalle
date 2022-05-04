@@ -48,16 +48,16 @@
 		}
 		
 		.gallery-grid {
-			display: none;
+			display: block;
 		}
 
 		img.gallery-cover, img.gallery-item {
-			width: 375px;
-			height: 250px;
+			width: 100%;
+			max-height: 250px;
 			margin: 0;
 			border-radius: 0;
+			margin-bottom: 20px;
 		}
-		
 	}
 </style>
 

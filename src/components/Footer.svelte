@@ -14,6 +14,6 @@
 
 <footer>
   <div>
-    © 2022 Baja Valle Retreat | Valle de Guadalupe, Baja California, Mexico.
+    © 2022 Baja Valle Retreat | Valle de Guadalupe, Baja California, México.
   </div>
 </footer>

@@ -1,5 +1,10 @@
 <script>
-	import Gallery from "../components/Gallery.svelte"; 
+	import Intro from "../components/Intro.svelte"
+
+	function clickMapHandler() {
+		console.log('clickMapHandler')
+		window.open("https://goo.gl/maps/jop1FnZQjb1kPVKT8", "_blank")
+	}
 </script>
 
 <style>
@@ -28,6 +33,16 @@
 			padding: 0 12px;
 		}
 	}
+
+	.map {
+		margin: 100px 0;
+	}
+
+	.map img {
+		width: 100%;
+		border-radius: 5px;
+		cursor: pointer;
+	}
 </style>
 
 
@@ -37,9 +52,13 @@
 
 <div class="container">
 	<div class="content">
-		<h1>100 Conejos</h1>
-		<h2>Valle de Guadalupe, Baja California, Mexico</h2>
+		<h1>¿Cuánto tiempo es para siempre?</h1>
+		<h2>A veces, sólo un segundo.</h2>
 	</div>
 	
-	<Gallery />
+	<Intro />
+
+	<div class="map">
+		<img src="map.png" alt="Ubicación de Baja Valle Retreat" on:click={clickMapHandler}/>
+	</div>
 </div>

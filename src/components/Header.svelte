@@ -1,4 +1,7 @@
 <style>
+  a {
+    text-decoration: none;
+  }
   .header {
     height: 80px;
     box-shadow: rgb(0 0 0 / 8%) 0px 1px 12px;
@@ -19,5 +22,5 @@
   }
 </style>
 <div class="header">
-  <h3>Baja Valle Retreat</h3>
+  <h3><a href="/">Baja Valle Retreat</a></h3>
 </div>

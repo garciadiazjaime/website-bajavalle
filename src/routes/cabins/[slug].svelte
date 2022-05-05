@@ -2,6 +2,7 @@
   import Gallery from "../../components/Gallery.svelte"; 
 
   export let place = {}
+	export let slug = ''
 </script>
 
 <script context="module">
@@ -14,21 +15,21 @@
 		const { slug } = page.params;
 
 		const places = {
-      'conejo-este': {
+      'cabin-1': {
         name: 'Conejo Añejo',
         description: 'El muerto al pozo y el vivo al gozo.',
       },
-      'conejo-centro': {
+      'cabin-2': {
         name: 'Conejo Parejo',
         description: 'Dando y dando, pajarito volando.',
       },
-      'conejo-oeste': {
+      'cabin-3': {
         name: 'Conejo Espejo',
         description: '¡A darle que es mole de olla!',
       },
     }
 
-		return { place: places[slug] };
+		return { place: places[slug], slug };
 	}
 </script>
 
@@ -81,7 +82,7 @@
 		<h2>{place.description}</h2>
 	</div>
 
-  <Gallery />
+  <Gallery cabin={slug} />
 
   <div class="reserve">
     <a href="https://www.airbnb.com/" target="_blank">Reservar!</a>

@@ -1,3 +1,7 @@
+<script>
+	export let cabin
+</script>
+
 <style>
 	.gallery {
 		display: flex;		
@@ -62,12 +66,12 @@
 </style>
 
 <div class="gallery">
-  <img src="house/conejo/front-night.jpeg" alt="" class="gallery-cover left-border">
+  <img src={`/cabins/${cabin}/front.webp`} alt="" class="gallery-cover left-border">
 
   <div class="gallery-grid">
-    <img src="house/conejo/east-side.jpeg" alt="" class="gallery-item">
-    <img src="house/conejo/entrance.jpeg" alt="" class="gallery-item right-top-border margin-left">
-    <img src="house/conejo/west-side.jpeg" alt="" class="gallery-item">
-    <img src="house/conejo/garden.jpeg" alt="" class="gallery-item right-bottom-border margin-left">
+    <img src={`/cabins/${cabin}/bedroom.webp`} alt="" class="gallery-item">
+    <img src={`/cabins/${cabin}/livingroom.webp`} alt="" class="gallery-item right-top-border margin-left">
+    <img src={`/cabins/${cabin}/kitchen.webp`} alt="" class="gallery-item">
+    <img src={`/cabins/${cabin}/garden.webp`} alt="" class="gallery-item right-bottom-border margin-left">
   </div>
 </div>

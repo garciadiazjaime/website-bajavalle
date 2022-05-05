@@ -2,7 +2,6 @@
 	import Intro from "../components/Intro.svelte"
 
 	function clickMapHandler() {
-		console.log('clickMapHandler')
 		window.open("https://goo.gl/maps/jop1FnZQjb1kPVKT8", "_blank")
 	}
 </script>

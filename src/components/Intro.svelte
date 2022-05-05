@@ -62,22 +62,22 @@
 </style>
 
 <div class="intro">
-  <a href="./cabana/conejo-este">
-    <img src="house/conejo/east-side.jpeg" alt="">
+  <a href="./cabins/cabin-1">
+    <img src="/cabins/cabin-1/front.webp" alt="">
     <div class="place color-1">
       <h2>Conejo Añejo</h2>
       <p>El muerto al pozo y el vivo al gozo.</p>
     </div>
   </a>
-  <a href="./cabana/conejo-centro">
-    <img src="house/conejo/entrance.jpeg" alt="">
+  <a href="./cabins/cabin-2">
+    <img src="/cabins/cabin-2/bedroom.webp" alt="">
     <div class="place color-2">
       <h2>Conejo Espejo</h2>
       <p>¡A darle que es mole de olla!</p>
     </div>
   </a>
-  <a href="./cabana/conejo-oeste">
-    <img src="house/conejo/west-side.jpeg" alt="">
+  <a href="./cabins/cabin-3">
+    <img src="/cabins/cabin-3/kitchen.webp" alt="">
     <div class="place color-3">
       <h2>Conejo Parejo</h2>
       <p>Dando y dando, pajarito volando</p>

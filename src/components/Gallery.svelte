@@ -66,12 +66,28 @@
 </style>
 
 <div class="gallery">
-  <img src={`/cabins/${cabin}/front.webp`} alt="" class="gallery-cover left-border">
+	<picture>
+		<source type="image/webp" srcset={`/cabins/${cabin}/bedroom.front`}>
+
+		<img src={`/cabins/${cabin}/front.jpg`} alt="" class="gallery-cover left-border">
+	</picture>
 
   <div class="gallery-grid">
-    <img src={`/cabins/${cabin}/bedroom.webp`} alt="" class="gallery-item">
-    <img src={`/cabins/${cabin}/livingroom.webp`} alt="" class="gallery-item right-top-border margin-left">
-    <img src={`/cabins/${cabin}/kitchen.webp`} alt="" class="gallery-item">
-    <img src={`/cabins/${cabin}/garden.webp`} alt="" class="gallery-item right-bottom-border margin-left">
+		<picture>
+			<source type="image/webp" srcset={`/cabins/${cabin}/bedroom.webp`}>
+			<img src={`/cabins/${cabin}/bedroom.jpg`} alt="" class="gallery-item">
+		</picture>
+		<picture>
+			<source type="image/webp" srcset={`/cabins/${cabin}/livingroom.webp`}>
+			<img src={`/cabins/${cabin}/livingroom.jpg`} alt="" class="gallery-item right-top-border margin-left">
+		</picture>
+		<picture>
+			<source type="image/webp" srcset={`/cabins/${cabin}/kitchen.webp`}>
+			<img src={`/cabins/${cabin}/kitchen.jpg`} alt="" class="gallery-item">
+		</picture>
+		<picture>
+			<source type="image/webp" srcset={`/cabins/${cabin}/garden.webp`}>
+			<img src={`/cabins/${cabin}/garden.jpg`} alt="" class="gallery-item right-bottom-border margin-left">
+		</picture>
   </div>
 </div>

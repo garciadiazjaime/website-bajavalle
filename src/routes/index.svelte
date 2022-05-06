@@ -58,6 +58,9 @@
 	<Intro />
 
 	<div class="map">
-		<img src="map.webp" alt="Ubicación de Baja Valle Retreat" on:click={clickMapHandler}/>
+		<picture>
+			<source type="image/webp" srcset="/map.webp">
+			<img src="/map.png" alt="Ubicación de Baja Valle Retreat" on:click={clickMapHandler}/>
+		</picture>
 	</div>
 </div>

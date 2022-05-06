@@ -62,21 +62,30 @@
 
 <div class="intro">
   <a href="./cabins/cabin-1">
-    <img src="/cabins/cabin-1/front.webp" alt="">
+    <picture>
+      <source type="image/webp" srcset="/cabins/cabin-1/front.webp">
+      <img src="/cabins/cabin-1/front.jpg" alt="">
+    </picture>
     <div class="place color-1">
       <h2>Conejo Añejo</h2>
       <p>El muerto al pozo y el vivo al gozo.</p>
     </div>
   </a>
   <a href="./cabins/cabin-2">
-    <img src="/cabins/cabin-2/bedroom.webp" alt="">
+    <picture>
+      <source type="image/webp" srcset="/cabins/cabin-2/bedroom.webp">
+      <img src="/cabins/cabin-2/bedroom.jpg" alt="">
+    </picture>
     <div class="place color-2">
       <h2>Conejo Espejo</h2>
       <p>¡A darle que es mole de olla!</p>
     </div>
   </a>
   <a href="./cabins/cabin-3">
-    <img src="/cabins/cabin-3/kitchen.webp" alt="">
+    <picture>
+      <source type="image/webp" srcset="/cabins/cabin-3/kitchen.webp">
+      <img src="/cabins/cabin-3/kitchen.jpg" alt="">
+    </picture>
     <div class="place color-3">
       <h2>Conejo Parejo</h2>
       <p>Dando y dando, pajarito volando</p>

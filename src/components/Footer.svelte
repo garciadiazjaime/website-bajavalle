@@ -2,7 +2,7 @@
   footer {
     background-color: #f7f7f7;
     padding: 42px 0;
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   div {

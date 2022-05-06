@@ -4,10 +4,9 @@
   }
 
   .intro {
-    display: flex;
-    column-gap: 20px;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
   }
   .intro div {
     gap: 10px;

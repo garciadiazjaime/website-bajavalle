@@ -34,7 +34,7 @@
 	}
 
 	.map {
-		margin: 100px 0;
+		margin: 80px 0 0;
 	}
 
 	.map img {
@@ -58,6 +58,6 @@
 	<Intro />
 
 	<div class="map">
-		<img src="map.png" alt="Ubicación de Baja Valle Retreat" on:click={clickMapHandler}/>
+		<img src="map.webp" alt="Ubicación de Baja Valle Retreat" on:click={clickMapHandler}/>
 	</div>
 </div>

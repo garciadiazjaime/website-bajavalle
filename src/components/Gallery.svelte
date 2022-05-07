@@ -67,7 +67,7 @@
 
 <div class="gallery">
 	<picture>
-		<source type="image/webp" srcset={`/cabins/${cabin}/bedroom.front`}>
+		<source type="image/webp" srcset={`/cabins/${cabin}/front.webp`}>
 
 		<img src={`/cabins/${cabin}/front.jpg`} alt="" class="gallery-cover left-border">
 	</picture>

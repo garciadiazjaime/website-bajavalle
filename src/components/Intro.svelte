@@ -6,7 +6,7 @@
   .intro {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 40px;
+    column-gap: 20px;
   }
   .intro div {
     gap: 10px;
